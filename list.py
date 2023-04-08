@@ -1,4 +1,2 @@
-l=list(map(int,input().split())
-res = sum(map(lambda i: i * i, l))
-       print(res)
-        
+def sum_of_squares(xs):
+    return sum(x * x for x in xs)
